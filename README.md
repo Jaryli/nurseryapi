@@ -3,8 +3,8 @@
 > 版本说明
 
 	1.0版
-> 应用框架333
+> 应用框架
 
-<span style="border:solid 1px #3399ff;background:#70b7ff;color:#ffffff;padding:2px;">springmvc、hibernate</span>
+`**springmvc、hibernate**`
 
-##说明文件444
+##说明文件
