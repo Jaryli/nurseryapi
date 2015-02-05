@@ -2,9 +2,9 @@
 
 > 版本说明
 
-	1.0版
+	**1.0版**
 > 应用框架
 
-`**springmvc、hibernate**`
+	**springmvc、hibernate**
 
 ##说明文件
