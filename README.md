@@ -5,6 +5,6 @@
 	1.0版
 > 应用框架333
 
-	spring mvc、hibernate
+<span style="border:solid 1px #3399ff;background:#70b7ff;color:#ffffff;padding:2px;">springmvc、hibernate</span>
 
 ##说明文件444
