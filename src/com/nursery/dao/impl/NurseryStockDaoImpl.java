@@ -28,7 +28,7 @@ public class NurseryStockDaoImpl implements NurseryStockDao
 	@Override
 	public int edit(final int id, final NurseryStock ns)
 	{
-		String sql = "update NurseryStock set TXiongJing=?,TGanJing=?,THeight=?,TDiJing=?,TDiameter=?,TThickness=?,TPengXing=?,NewPrice=?,Remark=? where Id=?";
+		String sql = "update NurseryStock set TXiongJing=?,TGanJing=?,THeight=?,TDiJing=?,TDiameter=?,TThickness=?,TPengXing=?,NewPrice=?,Remark=?,Attach=?,Attach1=? where Id=?";
 		int updated = jdbcTemplate.update(sql, new PreparedStatementSetter()
 		{
 
@@ -44,7 +44,9 @@ public class NurseryStockDaoImpl implements NurseryStockDao
 				ps.setString(7, ns.getTPengXing());
 				ps.setDouble(8, ns.getNewPrice());
 				ps.setString(9, ns.getRemark());
-				ps.setDouble(10, id);
+				ps.setString(10, ns.getAttach());
+				ps.setString(11, ns.getAttach1());
+				ps.setDouble(12, id);
 			}
 		});
 		return updated;
